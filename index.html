@@ -1,63 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Asoschilar Consulting</title>
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+		<title>Asoschilar Consulting</title>
+	</head>
+	<body>
+		<!-- HEADER start -->
 
-  <!-- HEADER start -->
+		<header class="header">
+			<div class="header-container container">
+				<a href="#">
+					<img class="header-logo" src="./img/header/logo.svg" alt="header logo" />
+				</a>
 
-  <header class="header">
-    <div class="header-container container">
-      <a href="#">
-        <img class="header-logo" src="./img/header/logo.svg" alt="header logo">
-      </a>
+				<ul class="nav-list">
+					<li class="nav-item"><a href="" class="nav-link">Xizmatlar</a></li>
+					<li class="nav-item"><a href="" class="nav-link">Biz haqimizda</a></li>
+					<li class="nav-item"><a href="" class="nav-link">Natijalar</a></li>
+				</ul>
 
-      <ul class="nav-list">
-        <li class="nav-item"><a href="" class="nav-link">Xizmatlar</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Biz haqimizda</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Natijalar</a></li>
-      </ul>
+				<a href="#" class="main-link">Konsultatsiyaga yozilish</a>
+			</div>
+		</header>
 
-      <a href="#" class="main-link">Konsultatsiyaga yozilish</a>
-    </div>
-  </header>
+		<!-- hero start -->
 
-  <!-- hero start -->
+		<section class="hero">
+			<div class="hero-container container">
+				<div class="hero-info">
+					<h2 class="hero-title">Siz strategiyani o’ylang Tizimni biz hal qilamiz!</h2>
+					<p class="hero-text">
+						Tizimlashtirish orqali har kunlik muammolar bilan ovora bo‘lish o‘rniga, biznesingizni rivojlantirishga vaqt ajrating.
+					</p>
+					<a href="#" class="hero-link">Konsultatsiyaga yozilish</a>
+				</div>
+				<img class="hero-img" src="./img/header/person.png" alt="" />
+			</div>
+		</section>
 
-  <section class="hero">
-    <div class="hero-container container">
-      <div class="hero-info">
-        <h2 class="hero-title">
-          Siz strategiyani o’ylang
-          Tizimni biz hal qilamiz!
-        </h2>
-        <p class="hero-text">Tizimlashtirish orqali har kunlik muammolar bilan ovora bo‘lish o‘rniga, biznesingizni rivojlantirishga vaqt ajrating.</p>
-        <a href="#" class="hero-link">Konsultatsiyaga yozilish</a>
+		<!-- hero end -->
+
+		<!-- BREND start -->
+    <section class="brend">
+			<div class="brend-container container">
+				<img class="brend-logo" src="./img/brend/first.svg" alt="logo" />
+				<img class="brend-logo" src="./img/brend/second.svg" alt="logo" />
+				<img class="brend-logo" src="./img/brend/thirst.svg" alt="logo" />
+				<img class="brend-logo resp" src="./img/brend/first.svg" alt="logo" />
+				<img class="brend-logo resp" src="./img/brend/second.svg" alt="logo" />
+				<img class="brend-logo resp" src="./img/brend/thirst.svg" alt="logo" />
+			</div>
+		</section>
+		<!-- BREND end -->
+
+		<!-- SERVICE start -->
+		<section class="service">
+			<div class="service-container container">
+				<div class="sevice-left">
+					<button class="section-header"><img src="./img/service/first.svg" alt="logo" />Xizmatlarimiz</button>
+					<h2 class="section-title">
+						Tizim bo‘lmasa rivojlanish to‘xtab qoladi. Biz sizga quyidagi yo‘nalishlarda amaliy yordam beramiz.
+					</h2>
+				</div>
+
+				<ul class="service-list">
+					<li class="service-item">
+						<img class="service-img" src="./img/service/second.svg" alt="" />
+						<div class="service-item-info">
+							<h3 class="service-item-title">Umumiy boshqaruvni tizimlashtirish</h3>
+
+							<ul class="service-item-list">
+								<li class="service-item-item">Tashkiliy struktura (Org. struktura)</li>
+								<li class="service-item-item">Ichki reglamentlar va tartiblar</li>
+								<li class="service-item-item">Ish standartlari</li>
+								<li class="service-item-item">Hisobot tizimi</li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="service-item">
+						<img class="service-img" src="./img/service/thirst.svg" alt="" />
+						<div class="service-item-info">
+							<h3 class="service-item-title">Sotuv bo'limi</h3>
+
+							<ul class="service-item-list">
+								<li class="service-item-item">CRM tizimini biznesingizga moslashtirish</li>
+								<li class="service-item-item">Sotuv voronkasini ishlab chiqish</li>
+								<li class="service-item-item">Skriptlar va sotuv algoritmlari yaratish</li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="service-item">
+						<img class="service-img" src="./img/service/fourth.svg" alt="" />
+						<div class="service-item-info">
+							<h3 class="service-item-title">HR bo’limi</h3>
+
+							<ul class="service-item-list">
+								<li class="service-item-item">Xodimlar uchun aniq reglamentlar</li>
+								<li class="service-item-item">KPI asosida oylik tizimi</li>
+								<li class="service-item-item">Ishga olish voronkasi (bosqichma-bosqich jarayon)</li>
+								<li class="service-item-item">Yangi xodimlar uchun o‘quv dasturi</li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="service-item">
+						<img class="service-img" src="./img/service/fifth.svg" alt="" />
+						<div class="service-item-info">
+							<h3 class="service-item-title">Marketing bo’limi</h3>
+
+							<ul class="service-item-list">
+								<li class="service-item-item">Notion asosida kontent boshqaruvi</li>
+								<li class="service-item-item">Kontent plan bilan ishlash va nazorat tizimi</li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="service-item">
+						<img class="service-img" src="./img/service/sixth.svg" alt="" />
+						<div class="service-item-info">
+							<h3 class="service-item-title">Yuridik yordam</h3>
+
+							<ul class="service-item-list">
+								<li class="service-item-item">Kompaniyani ochish va huquqiy ro‘yxatdan o‘tkazish</li>
+								<li class="service-item-item">Xodimlarni rasmiy ishga olish hujjatlari</li>
+								<li class="service-item-item">Tijorat sirlarini himoya qilish bo‘yicha kelishuvlar</li>
+								<li class="service-item-item">Hamkorlik va xizmat ko‘rsatish shartnomalari</li>
+								<li class="service-item-item">Soliq yukini optimallashtirish</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+    <!-- SERVICE end -->
+
+		<!-- WHY US start -->
+
+		<section class="why-us">
+			<div class="why-us-container container">
+				<div class="why-us-top">
+					<button class="section-header">
+						<img src="./img/why-us/cup.svg" alt="" />
+						Bizni qadriyatlarimiz?
+					</button>
+					<h2 class="section-title">Nega aynan biz?</h2>
+				</div>
+
+				<div class="why-us-row">
+					<div class="why-us-col">
+						<img class="why-us-col-img" src="./img/why-us/first_card.svg" alt="" />
+						<h3 class="why-us-title">Expert ko'magi</h3>
+						<p class="why-us-text">Har bir loyihada Ravshan Turg‘unov shaxsan ishtirok etadi.</p>
+					</div>
+
+					<div class="why-us-col">
+						<img class="why-us-col-img" src="./img/why-us/second_card.svg" alt="" />
+						<h3 class="why-us-title">Expert ko’magi</h3>
+						<p class="why-us-text">Bir vaqtning o‘zida maksimal 2 tadan ortiq loyiha bilan shug’illanmaydi.</p>
+					</div>
+
+					<div class="why-us-col">
+						<img class="why-us-col-img" src="./img/why-us/thirst_card.svg" alt="" />
+						<h3 class="why-us-title">Individual yondashuv</h3>
+						<p class="why-us-text">Tayyor shablonlar emas, sizga mos individual tizim ishlab chiqamiz.</p>
+					</div>
+				</div>
+				<a href="#" class="why-us-link">Konsultatsiyaga yozilish</a>
+			</div>
+		</section>
+
+		<!-- WHY US end -->
+
+		<!-- PORTFOLIO start -->
+
+		<section class="portfolio">
+			<div class="portfolio-container container">
+				<div class="portfolio-top">
+					<button class="section-header">
+						<img src="./img/portfolio/bag.svg" alt="" />
+						Natijalar gapiradi
+					</button>
+					<h2 class="section-title">Amalga oshirilgan loyihalar</h2>
+				</div>
+
+				<div class="portfolio-row">
+          <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="portfolio-card">
+                    <img class="portfolio-card-img" src="./img/portfolio/brain.png" alt="" />
+                    <h3 class="portfolio-title">Supermiya</h3>
+                    <p class="portfolio-text">Xotirani rivojlantirish markazi uchun ichki boshqaruv tartibiga tizim joriy etildi.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="portfolio-card">
+                    <img class="portfolio-card-img" src="./img/portfolio/well.png" alt="" />
+                    <h3 class="portfolio-title">Print Well</h3>
+                    <p class="portfolio-text">Yirik tipografiya markazi. Rglamentsiz muhitdan to‘liq CRM va hisobotli tizimga o‘tildi.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="portfolio-card">
+                    <img class="portfolio-card-img" src="./img/portfolio/brain.png" alt="" />
+                    <h3 class="portfolio-title">Supermiya</h3>
+                    <p class="portfolio-text">Xotirani rivojlantirish markazi uchun ichki boshqaruv tartibiga tizim joriy etildi.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="portfolio-card">
+                    <img class="portfolio-card-img" src="./img/portfolio/well.png" alt="" />
+                    <h3 class="portfolio-title">Print Well</h3>
+                    <p class="portfolio-text">Yirik tipografiya markazi. Rglamentsiz muhitdan to‘liq CRM va hisobotli tizimga o‘tildi.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next1 portfolio-btn"><img src="./img/portfolio/arrow-left.png" alt=""></div>
+            <div class="swiper-button-prev2 portfolio-btn"><img src="./img/portfolio/arrow-right.png" alt=""></div>
+        </div>
+
+			</div>
+		</section>
+
+		<!-- PORTFOLIO end -->
+
+    <!-- ABOUT start -->
+    <section class="about">
+      <div class="about-container container">
+        <h2 class="about-title">Biz raqamlarga ishonamiz!</h2>
+        <div class="about-row">
+
+          <div class="about-col">
+            <h3>10+</h3>
+            <p>Muvaffaqiyatli yakunlangan loyihalarimiz</p>
+          </div>
+
+          <div class="about-col">
+            <h3>2 yil</h3>
+            <p>Loyihalar bilan ishlashda tajriba</p>
+          </div>
+
+          <div class="about-col">
+            <h3>5 yil</h3>
+            <p>Boshqaruv bo’yicha real loyihalarda tajriba</p>
+          </div>
+
+          <div class="about-col">
+            <h3>6</h3>
+            <p>Tajribali mutaxasislardan tashkil topgan jamoa</p>
+          </div>
+
+        </div>
+        <a href="#" class="about-link">Konsultatsiyaga yozilish</a>
       </div>
-      <img class="hero-img" src="./img/header/person.png" alt="">
-    </div>
-  </section>
+    </section>
 
-  <!-- hero end -->
+    <!-- ABOUT end -->
 
-  <section class="brend">
-    <div class="brend-container container">
-      <img class="brend-logo" src="./img/brend/brand.svg" alt="logo">
-      <img class="brend-logo" src="./img/brend/brand.svg" alt="logo">
-      <img class="brend-logo" src="./img/brend/brand.svg" alt="logo">
-      <img class="brend-logo" src="./img/brend/brand.svg" alt="logo">
-      <img class="brend-logo" src="./img/brend/brand.svg" alt="logo">
-      <img class="brend-logo" src="./img/brend/brand.svg" alt="logo">
-    </div>
-  </section>
-  <br><br><br><br>
-  <br><br><br><br>
-  <br><br><br><br>
-  <br><br><br><br>
-</body>
+    <!-- user-thought start -->
+
+    <section class="thought">
+      <div class="thought-container container">
+      <div class="hought-top">
+          <button class="section-header"> <img src="./img/user-thought/thumbs-up.png" alt=""> Fikrlar</button>
+          <h2 class="section-title">Mijozlardan samimiy fikrlar</h2>
+      </div>
+
+        <div class="thought-flex">
+          <div class="hought-card">
+            <img class="thought-img" src="./img/user-thought/person1.png" alt="">
+            <div class="thought-card-text">
+              <h3>“Biznesimda kim nima qilayotgani aniq bo‘ldi. Hozir har kim mas’uliyatini biladi.”</h3>
+              <p>— G’ulomjon Mansurov, Print Well kompaniyasi asoschisi</p>
+            </div>
+          </div>
+
+          <div class="hought-card">
+            <img class="thought-img" src="./img/user-thought/person2.png" alt="">
+            <div class="thought-card-text">
+              <h3>“Biznesimda kim nima qilayotgani aniq bo‘ldi. Hozir har kim mas’uliyatini biladi.”</h3>
+              <p>— Abdulloh Yusupov, Dodo kids kompaniyasi asoschisi</p>
+            </div>
+          </div>
+
+          <div style="border-bottom: none;" class="hought-card">
+            <img class="thought-img" src="./img/user-thought/person3.png" alt="">
+            <div class="thought-card-text">
+              <h3>“Biznesimda kim nima qilayotgani aniq bo‘ldi. Hozir har kim mas’uliyatini biladi.”</h3>
+              <p>— Sherzod Darxonov, Foggi do’konlari CEO’si</p>
+            </div>
+          </div>
+          <a class="thought-link" href="#">Ko'proq korish</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="boglaning">
+      <div class="boglaning-container container">
+        <div class="boglaning-left">
+          <button class="section-header"> <img src="./img/boglaning/call.svg" alt=""> Biz bilan bog’laning</button>
+          <h2 class="section-title">Konsultatsiyaga yoziling va biznesingizni tizimlashtiring</h2>
+        </div>
+        <form action="#">
+          <p>Ism</p>
+          <input placeholder="To’liq ismingiz" type="text">
+          <p>Telefon raqam</p>
+          <input type="number" placeholder="+998 _ _  _ _ _  _ _  _ _">
+          <p>Kompaniyangiz</p>
+          <input type="text" placeholder="Kompaniya nomi">
+          <button class="boglaning_btn">Konsultatsiyaga yozilish</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- user-thought end -->
+
+    <!-- footer start -->
+
+    <footer>
+      <div class="footer-container container">
+
+        <div class="footer-left">
+          <img src="./img/header/logo.svg" alt="">
+          <p>©2025 Barcha huquqlar himoyalangan.</p>
+        </div>
+
+        <div class="footer-right">
+          <ul class="footer-list">
+            <h4 class="footer-list-title">Linklar</h4>
+            <li class="footer-item"><a href="#">Biz haqimizda</a></li>
+            <li class="footer-item"><a href="#">Xizmatlar</a></li>
+            <li class="footer-item"><a href="#">Konsultatsiya</a></li>
+          </ul>
+
+          <ul class="footer-list">
+            <h4 class="footer-list-title">Bog’lanish</h4>
+            <li class="footer-item"><a href="#"> <img src="./img/footer/call-calling.svg" alt=""> +998 99 842 79 79</a></li>
+            <li class="footer-item"><a href="#"><img src="./img/footer/sms.svg" alt=""> info@asoschilar.uz</a></li>
+            <li class="footer-item"><a href="#"> <img src="./img/footer/send-2.svg" alt=""> @asoschilar_bot</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer end -->
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
 </html>
