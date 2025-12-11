@@ -758,7 +758,7 @@ form{
   gap: 32px;
   margin-bottom: 64px;
   text-align: left;
-
+  align-items: center;
 }
 .about-row{
 
@@ -912,6 +912,12 @@ form{
 }
 
 @media only screen and (max-width: 450px){
+  .why-us-row{
+    align-items: center;
+    max-width: 342px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .hero-container{
     padding-left: 20px;
     padding-right: 0px;
